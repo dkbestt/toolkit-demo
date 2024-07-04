@@ -1,0 +1,81 @@
+/* add css module styles here (optional) */
+
+._3qw0K {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+._Xt-75 {
+  position: fixed;
+  z-index: 20;
+  width: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 10px;
+  /* border: 10px solid white; */
+}
+
+._br_-q {
+  /* background: #619cb0; */
+  /* padding: 3px 25px; */
+  display: flex;
+  justify-content: space-between;
+  height: 2px;
+  /* border-bottom: 1px solid white; */
+}
+
+._2MJ9D {
+  padding: 30px;
+}
+
+._2RHFL {
+  border: none;
+  border-radius: 10px;
+  outline: 0;
+  background: white;
+  padding-bottom: 27px;
+  padding-right: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+  color: #000;
+  font-size: 20px;
+  margin: 31px;
+  z-index: 4;
+}
+
+._2RHFL:hover {
+  color: gray;
+}
+
+._2hTXI {
+  background: grey;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+._2hTXI:hover {
+  background: orange;
+}
+@media screen and (min-width: 0) and (max-width: 700px) {
+  ._Xt-75 {
+    width: 80%;
+    transform: translateX(-60%) translateY(-50%);
+    /* border: 10px solid white; */
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1200px) {
+  ._Xt-75 {
+    width: 70%;
+    transform: translateX(-65%) translateY(-50%);
+    /* border: 10px solid white; */
+  }
+}

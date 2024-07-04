@@ -1,0 +1,194 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+.login-gif {
+    flex: 0 0 65%;
+    max-width: 65%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.login-gif .main-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    max-width: 632px;
+    animation: main_img 15s infinite;
+    right: 0;
+    margin: auto;
+}
+
+input {
+    font-size: 14px;
+}
+
+.input-check input[type="checkbox"] ~ *,
+.input-check input[type="radio"] ~ * {
+    position: relative;
+    padding-left: 30px;
+    font-size: 14px;
+    color: #619cb0;
+    font-family: "Poppins", sans-serif;
+    line-height: 22px;
+    cursor: pointer;
+}
+.input-check input[type="checkbox"] ~ *::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid #b2b2b2;
+    font-family: "FontAwesome";
+    text-align: center;
+    line-height: 19px;
+    color: #619cb0;
+}
+.login-gif .main-img1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    max-width: 632px;
+    animation: main_img 15s infinite;
+    right: 0;
+    margin: auto;
+}
+@keyframes main_img {
+    0% {
+        transform: scale(0.9);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.9);
+    }
+}
+.icon_group i.fa {
+    position: absolute;
+    top: 15px;
+    right: 8px;
+}
+.icon_group {
+    position: relative;
+}
+.wrap-filed {
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+}
+.input-check {
+    position: relative;
+    line-height: 100%;
+}
+.input-check input[type="checkbox"] ~ *,
+.input-check input[type="radio"] ~ * {
+    position: relative;
+    padding-left: 30px;
+    font-size: 14px;
+    color: #619cb0;
+    font-family: "Poppins", sans-serif;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.check_input {
+    display: flex;
+    font-size: 14px;
+    color: #619cb0;
+    font-family: "Poppins", sans-serif;
+}
+.input-check input[type="checkbox"]:checked ~ *::before {
+    content: "\f00c";
+}
+.main-img {
+    background-image: url(../src/assets/images/register_image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.main-img1 {
+    background-image: url(../src/assets/images/login_image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.login-gif .circle {
+    position: absolute;
+    right: -100px;
+    margin: auto;
+    top: -100px;
+    width: 250px;
+    height: 250px;
+    background-color: #e0dff9;
+    border-radius: 50%;
+    animation: circle1 5s;
+    z-index: 1;
+}
+
+@keyframes circle1 {
+    0% {
+        top: -250px;
+        right: -250px;
+    }
+    100% {
+        top: -100px;
+        right: -100px;
+    }
+}
+
+.login-gif .circle2 {
+    width: 250px;
+    height: 250px;
+    right: -50px;
+    bottom: 25%;
+    background-color: #f9e6df;
+    top: auto;
+    animation: circle2 7s;
+}
+@keyframes circle2 {
+    0% {
+        right: -250px;
+    }
+    100% {
+        right: -50px;
+    }
+}
+
+.login-gif .circle3 {
+    left: 0;
+    right: auto;
+    width: 250px;
+    height: 250px;
+    top: auto;
+    background-color: #dff9f2;
+    bottom: -40px;
+    animation: circle3 10s;
+}
+
+@keyframes circle3 {
+    0% {
+        bottom: -250px;
+    }
+    100% {
+        bottom: -40px;
+    }
+}

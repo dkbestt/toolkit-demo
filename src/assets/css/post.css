@@ -1,0 +1,84 @@
+.post-grid{             
+    /* display: flex; */
+    display: grid;  
+    grid: auto auto/ auto auto ; 
+    /* grid-gap: 10px;  */
+    /* background-color: green;  */
+     /* padding: 10px;   */
+     /* display: flex;
+     flex-wrap: wrap;
+     height: auto; */
+     width: 100%;
+     /* width: 400px; */
+     /* flex-direction: row; */
+     /* height: 400px; */
+}
+.post-item { 
+    background-color: rgb(255, 255, 255); 
+    text-align: center; 
+    border: 1px solid white;
+    /* flex: 1 1 200px; */
+   
+    /* padding: 25px 0;  */
+    /* font-size: 30px;  */
+} 
+.bg-image {
+    /* The image used */
+  
+    /* Add the blur effect */
+    filter: blur(5px);
+    -webkit-filter: blur(2px);
+    
+    /* Full height */
+    /* height: 100%;  */
+    
+    /* Center and scale the image nicely */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+  }
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(14, 13, 13, 0.749); /* Black w/opacity/see-through */
+    color: white;
+    height: 100%;
+    width: 100%;
+    font-size: 40px;
+    font-weight: 100px;
+    padding: 35%;
+    transform: translate(-50%, -50%);
+  }
+  .containerclass {
+    position: relative;
+    text-align: center;
+    color: white;
+   
+  }
+  .centered-play{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+ /* Black w/opacity/see-through */
+    color: white; 
+    font-size: 40px;
+    font-weight: 100px;
+    padding: 35%;
+    transform: translate(-50%, -50%);
+  }

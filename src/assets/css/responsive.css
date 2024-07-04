@@ -1,0 +1,879 @@
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+    .login-form {
+        flex: 0 0 40%;
+        max-width: 40%;
+        padding: 3vh;
+    }
+    .login-gif {
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+    .popup-forgot {
+        max-width: 40%;
+    }
+    .popup-forgot .forgot-form {
+        width: 85%;
+        padding: 25px;
+    }
+    .login-form .sign-form,
+    .login-form .login_form {
+        margin: 0 auto 20px;
+    }
+    .login-form .submit-btn {
+        margin-top: 20px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .login-gif .main-img {
+        max-width: 352px;
+    }
+    .login-gif .circle2 {
+        width: 190px;
+        height: 190px;
+    }
+    .login-gif .circle3 {
+        width: 220px;
+        height: 220px;
+    }
+    aside.sidebar-left {
+        padding: 20px 15px;
+    }
+    .chat-tabs ul.nav.nav-tabs li a {
+        font-size: 15px;
+        max-width: 90px;
+    }
+    .profile_pic img.bg-img {
+        border-width: 9px;
+    }
+    .media .profile_pic {
+        width: 95px;
+        margin: 0 auto 25px;
+        height: 95px;
+    }
+    .chat-tabs,
+    .chat-tabs .tab-content,
+    .chat-tabs .chat_title,
+    .tab-content ul.chat-main,
+    .story_post .add_post {
+        margin-top: 20px;
+    }
+    .chat_title h2 {
+        font-size: 20px;
+    }
+    .all-post ul.custom-scroll {
+        padding: 10px;
+    }
+    .post-center .all-post {
+        padding: 15px 5px 0;
+    }
+    .left_div {
+        width: 25%;
+    }
+    .chat-div {
+        width: 75%;
+    }
+    .tab-content ul.chat-main {
+        height: calc(100vh - 404px);
+    }
+    .sidebar-left .chat-cont-toggle a.btn-fix {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+    }
+    .custom-scroll {
+        padding: 0 10px 0 0;
+    }
+    .chat-main li {
+        padding: 10px 5px;
+    }
+    .chat-box .profile {
+        flex: 0 0 20%;
+        max-width: 40px;
+    }
+    .chat-box .details {
+        padding-left: 10px;
+        padding-right: 10px;
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+    .chat-box .details h5 {
+        font-size: 12px;
+    }
+    .chat-box .details h6 {
+        font-size: 11px;
+    }
+    .chat-box .date-status {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    h6 {
+        font-size: 10px;
+    }
+    .badge {
+        padding: 2px 4px;
+        font-size: 9px;
+    }
+    .icon-btn {
+        height: 35px;
+        width: 35px;
+    }
+    ul.chat-cont-setting li a .icon-btn,
+    .chat-frind-content li a .icon-btn {
+        font-size: 14px;
+    }
+    ul.chat-cont-setting li a,
+    .chat-frind-content li a {
+        font-size: 13px;
+    }
+    ul.chat-cont-setting,
+    .chat-frind-content,
+    .contact-poll-content {
+        padding: 10px;
+        min-width: 170px;
+    }
+    .other_story .add_story {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .other_story ul.owl-carousel {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .notifi-div ul.notifi_pop {
+        max-width: 320px;
+    }
+    .notifi-div ul li::before {
+        top: -15px;
+        width: 50px;
+        height: 50px;
+    }
+    .notifi-div ul li {
+        padding: 10px;
+        padding-left: 59px;
+        font-size: 14px;
+    }
+    .notifi-div ul li::before {
+        top: -15px;
+        width: 50px;
+        height: 50px;
+    }
+    .bottom-side .chat-right {
+        padding-left: 15px;
+        right: 15px;
+        width: 32%;
+    }
+    .main-chat-title > h3 {
+        font-size: 15px;
+    }
+    .main-chat-title {
+        padding: 10px;
+        padding-bottom: 20px;
+    }
+    .main-chat-title .chat-menu {
+        right: 10px;
+        top: 7px;
+    }
+    .bottom-side .post-center {
+        flex: 0 0 55%;
+        max-width: 55%;
+    }
+    .message-input textarea {
+        font-size: 13px;
+        width: 60%;
+        height: 35px;
+        padding: 8px 10px;
+    }
+    .contact-poll a.poll-link,
+    .dot-btn a {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .dot-btn a {
+        width: 30px;
+        line-height: 35px;
+    }
+    .chat-right .main-chat-box {
+        height: calc(100vh - 198px);
+        margin-top: 212px;
+    }
+    .chat-msg.custom-scroll {
+        height: calc(100vh - 347px);
+    }
+    .contact-chat ul li .profile {
+        width: 30px;
+        height: 30px;
+        flex: 0 0 30px;
+    }
+    .msg-box li h5,
+    .msg-box li .document,
+    .msg-box li .auto-gallery {
+        font-size: 12px;
+        padding: 7px 10px;
+    }
+    .contact-chat ul li.sent .document i,
+    .contact-chat ul li.replies .document i {
+        font-size: 28px;
+    }
+    .contact-chat ul li.sent .document .details,
+    .contact-chat ul li.replies .document .details {
+        padding-right: 10px;
+    }
+    .setting_div nav {
+        padding: 10px;
+        max-width: 25%;
+        flex: 0 0 25%;
+    }
+    .setting_div .nav-tabs a {
+        padding: 50px 5px 5px 5px;
+        font-size: 12px;
+    }
+    .setting_div .tab-content {
+        padding: 10px 0 10px 10px;
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .setting_div .tab-content h3 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .ios-toggle {
+        width: 40px;
+        height: 25px;
+    }
+    .ios-toggle > label::after {
+        width: 23px;
+        height: 23px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .login-gif {
+        display: none;
+    }
+    .login-form {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .main-section.login-page {
+        height: 100vh;
+    }
+    .login-form form {
+        margin: 0 auto 35px;
+    }
+    .popup-forgot {
+        max-width: 100%;
+    }
+    .popup-forgot .forgot-form {
+        padding: 40px 25px;
+        max-width: 500px;
+        width: 90%;
+    }
+    .forgot-form .close-icon {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 20px;
+        right: -17px;
+        top: -17px;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .menu {
+        width: 40%;
+        /* float: none; */
+    }
+    .main {
+        width: 60%;
+        /* float: none; */
+    }
+    .bottom-side .post-center {
+        /* flex: 0 0 65%; */
+        max-width: 100%;
+    }
+    .create_post{
+        right: 16%;
+    }
+   
+}
+
+@media screen and (min-width: 700px) and (max-width: 1200px) {
+    .menu {
+        width: 40%;
+        /* float: none; */
+    }
+    .create_post{
+        right: 22%;
+    }
+    .main {
+        width: 60%;
+        /* float: none; */
+    }
+    .bottom-side .post-center {
+        /* flex: 0 0 65%; */
+        max-width: 100%;
+    }
+    .all-post ul li{
+        width: 100%;
+    }
+    .post-center .all-post {
+        /* border-top: 1px solid #e8e8e8; */
+        margin-top: 5px;
+        padding:0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .edit-photo .profile-photo {
+        width: 128px;
+        height: 128px;
+    }
+    .file-input input[type="file"] {
+        width: 40px;
+        height: 40px;
+    }
+    html body .login-page .file-input i {
+        width: 40px;
+        height: 40px;
+        border: 2px solid #fff;
+        line-height: 36px;
+        font-size: 18px;
+    }
+    .login-form form .wrap-filed {
+        max-width: 345px;
+        flex: 0 0 345px;
+    }
+    .login-form {
+        height: auto;
+    }
+    .landing-content p {
+        font-size: 17px;
+    }
+    .landing-content h2 {
+        font-size: 24px;
+    }
+    .copyright p {
+        font-size: 14px;
+    }
+    .copyright p span {
+        font-size: 15px;
+    }
+    .main-logo {
+        padding: 84px;
+        max-width: 290px;
+    }
+    .main-logo span {
+        top: 15px;
+        bottom: 15px;
+        left: 15px;
+        right: 15px;
+        border-radius: 20px;
+    }
+    .copyright {
+        bottom: 10px;
+    }
+    a.skip-btn {
+        bottom: -80px;
+    }
+    .login-form form.form-step8 {
+        height: 62vh;
+        overflow-y: auto;
+    }
+    @-webkit-keyframes expand {
+        0% {
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 150px;
+            height: 150px;
+            opacity: 1;
+        }
+        100% {
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 230px;
+            height: 230px;
+            opacity: 0;
+        }
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .login-form form {
+        margin: 0 auto 15px;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    html body form .wrap-filed.checkout-input {
+        flex-wrap: wrap;
+        margin: 0 auto 15px;
+    }
+    .login-form form .submit-btn {
+        margin-top: 0;
+        flex: 0 0 100%;
+    }
+    html body input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]):not([type="file"]) {
+        height: 45px;
+    }
+    .main-section.login-page {
+        height: 100%;
+    }
+    .landing-content h2 {
+        font-size: 20px;
+    }
+    .landing-content p {
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+    .main-logo {
+        padding: 50px;
+        max-width: 200px;
+        margin-bottom: 5px;
+    }
+    .copyright {
+        bottom: 5px;
+    }
+    .main-logo span {
+        top: 10px;
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+        border-radius: 15px;
+    }
+    .main-logo span.landing-animation2 {
+        top: 25px;
+        bottom: 25px;
+        left: 25px;
+        right: 25px;
+    }
+    .main-logo span.landing-animation3 {
+        top: 40px;
+        bottom: 40px;
+        left: 40px;
+        right: 40px;
+    }
+    a.skip-btn {
+        bottom: 20px;
+    }
+    .login-form form.form-step8 {
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 0) and (max-width: 700px) {
+    .home {
+        display: block;
+    }
+
+    .menu {
+        width: 100%;
+        float: none;
+    }
+
+    .main {
+        width: 100%;
+        float: none;
+    }
+    .create_post{
+        right: 35%;
+    }
+
+    .top-side {
+        /* height: 10vh;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center; */
+        /* position: fixed; */
+        /* top: 0;
+        right: 0;
+        z-index: 2;
+       
+        /* position: fixed; */
+        padding: 0;
+        /* position: fixed; */
+        height: auto;
+    }
+    ._Xt-75 {
+        width: 80%;
+        transform: translateX(-60%) translateY(-50%);
+        /* border: 10px solid white; */
+    }
+    .top-section {
+        /* position: relative; */
+        bottom: 90px;
+        right: 85px;
+    }
+    .post-top {
+        margin: 0;
+    }
+    .all-post ul li{
+        width: 100%;
+    }
+    .other_story ul.owl-carousel li {
+        width: 500px;
+        height: 72px;
+    }
+    .add_story a {
+        padding: 0;
+        height: 80px;
+        /* width: ; */
+    }
+    .media h2 {
+        position: absolute;
+        top: 15px;
+    }
+    .top-1 {
+        top: 20px;
+    }
+   
+    .post-top .post_profile {
+        height: 30px;
+        width: 30px;
+    }
+    .post-top .post_profile {
+        font-size: 13px;
+        font-family: 300;
+    }
+    .profile_sidebar ul .relative {
+        display: none;
+    }
+    .login-form {
+        flex: 0 0 40%;
+        max-width: 40%;
+        padding: 3vh;
+    }
+   .profile_sidebar .myprofile {
+        text-align: center;
+    }
+
+    .login-gif {
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+
+    .popup-forgot {
+        max-width: 40%;
+    }
+
+    .popup-forgot .forgot-form {
+        width: 85%;
+        padding: 25px;
+    }
+
+    .login-form .sign-form,
+    .login-form .login_form {
+        margin: 0 auto 20px;
+    }
+
+    .login-form .submit-btn {
+        margin-top: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+    
+
+    .login-gif .main-img {
+        max-width: 352px;
+    }
+    .w-96 {
+        width: 22rem;
+    }
+    .react-tel-input .form-control {
+        width: 22rem;
+        font-size: 12px;
+    }
+    .px-4 {
+        padding-left: 1rem;
+        padding-right: 3rem;
+    }
+    .post-center .all-post {
+        /* border-top: 1px solid #e8e8e8; */
+        margin-top: 5px;
+        padding:0;
+    }
+    .login-gif .circle2 {
+        width: 200px;
+        height: 190px;
+    }
+
+    .login-gif .circle3 {
+        width: 220px;
+        height: 220px;
+    }
+
+    aside.sidebar-left {
+        padding: 20px 15px;
+    }
+
+    .chat-tabs ul.nav.nav-tabs li a {
+        /* font-size: 15px;
+        max-width: 90px; */
+        display: none;
+    }
+
+    .profile_pic img.bg-img {
+        border-width: 0;
+    }
+
+    .media .profile_pic {
+        width: 60px;
+        margin: auto 85%;
+        height: 60px;
+        display: none;
+    }
+
+    .profile_sidebar .text-center {
+        text-align: left;
+    }
+    .chat-tabs,
+    .chat-tabs .tab-content,
+    .chat-tabs .chat_title,
+    .tab-content ul.chat-main,
+    .story_post .add_post {
+        margin-top: 20px;
+    }
+
+    .chat_title h2 {
+        font-size: 20px;
+    }
+
+    .all-post ul.custom-scroll {
+        padding: 10px;
+    }
+
+    .post-center .all-post {
+        padding: 0;
+    }
+
+    .left_div {
+        /* width: 25%; */
+    }
+
+    .chat-div {
+        /* width: 75%; */
+    }
+
+    .tab-content ul.chat-main {
+        height: calc(100vh - 404px);
+    }
+
+    .sidebar-left .chat-cont-toggle a.btn-fix {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+    }
+
+    .custom-scroll {
+        padding: 0 10px 0 0;
+    }
+
+    .chat-main li {
+        padding: 10px 5px;
+    }
+
+    .chat-box .profile {
+        flex: 0 0 20%;
+        max-width: 40px;
+    }
+
+    .chat-box .details {
+        padding-left: 10px;
+        padding-right: 10px;
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+
+    .chat-box .details h5 {
+        font-size: 12px;
+    }
+
+    .chat-box .details h6 {
+        font-size: 11px;
+    }
+
+    .chat-box .date-status {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+
+    h6 {
+        font-size: 10px;
+    }
+
+    .badge {
+        padding: 2px 4px;
+        font-size: 9px;
+    }
+
+    .icon-btn {
+        display: none;
+        /* height: 35px; */
+        /* width: 35px; */
+    }
+
+    ul.chat-cont-setting li a .icon-btn,
+    .chat-frind-content li a .icon-btn {
+        font-size: 14px;
+    }
+
+    ul.chat-cont-setting li a,
+    .chat-frind-content li a {
+        font-size: 13px;
+    }
+
+    ul.chat-cont-setting,
+    .chat-frind-content,
+    .contact-poll-content {
+        padding: 10px;
+        min-width: 170px;
+    }
+
+    .other_story .add_story {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .other_story ul.owl-carousel {
+        /* flex: 0 0 75%; */
+        max-width: 100%;
+    }
+
+    .notifi-div ul.notifi_pop {
+        max-width: 320px;
+    }
+
+    .notifi-div ul li::before {
+        top: -15px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .notifi-div ul li {
+        padding: 10px;
+        padding-left: 59px;
+        font-size: 14px;
+    }
+
+    .notifi-div ul li::before {
+        top: -15px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .bottom-side .chat-right {
+        padding-left: 15px;
+        right: 15px;
+        width: 32%;
+    }
+
+    .main-chat-title > h3 {
+        font-size: 15px;
+    }
+
+    .main-chat-title {
+        padding: 10px;
+        padding-bottom: 20px;
+    }
+
+    .main-chat-title .chat-menu {
+        right: 10px;
+        top: 7px;
+    }
+
+    .bottom-side .post-center {
+        /* flex: 0 0 55%; */
+        max-width: 100%;
+    }
+
+    .message-input textarea {
+        font-size: 13px;
+        width: 60%;
+        height: 35px;
+        padding: 8px 10px;
+    }
+
+    .contact-poll a.poll-link,
+    .dot-btn a {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .dot-btn a {
+        width: 30px;
+        line-height: 35px;
+    }
+
+    .chat-right .main-chat-box {
+        height: calc(100vh - 198px);
+        margin-top: 212px;
+    }
+
+    .chat-msg.custom-scroll {
+        height: calc(100vh - 347px);
+    }
+
+    .contact-chat ul li .profile {
+        width: 30px;
+        height: 30px;
+        flex: 0 0 30px;
+    }
+
+    .msg-box li h5,
+    .msg-box li .document,
+    .msg-box li .auto-gallery {
+        font-size: 12px;
+        padding: 7px 10px;
+    }
+
+    .contact-chat ul li.sent .document i,
+    .contact-chat ul li.replies .document i {
+        font-size: 28px;
+    }
+
+    .contact-chat ul li.sent .document .details,
+    .contact-chat ul li.replies .document .details {
+        padding-right: 10px;
+    }
+
+    .setting_div nav {
+        padding: 10px;
+        max-width: 25%;
+        flex: 0 0 25%;
+    }
+
+    .setting_div .nav-tabs a {
+        padding: 50px 5px 5px 5px;
+        font-size: 12px;
+    }
+
+    .setting_div .tab-content {
+        padding: 10px 0 10px 10px;
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+
+    .setting_div .tab-content h3 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .ios-toggle {
+        width: 40px;
+        height: 25px;
+    }
+
+    .ios-toggle > label::after {
+        width: 23px;
+        height: 23px;
+    }
+}
